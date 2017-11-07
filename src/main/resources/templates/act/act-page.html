@@ -4,23 +4,12 @@
   <head th:replace="common/head" />
   <link rel="stylesheet" href="/css/main.css">
 </head>
-<body style="background: #e2f5f2;">
+<body>
 <!--头部-->
 <header th:replace="common/header" ></header>
-<!--banner-->
-<div class="banner" style="background-image:url(/images/banner.jpg);"></div>
 <!--商品区域-->
-<div th:replace="act/act-page-content"></div>
+<div th:utext="${actPage.actContent}"></div>
 <!--页脚-->
 <footer  th:replace="common/footer" ></footer>
-<script>
-  $('.hot_box .goods:nth-child(4n)').css('margin-right', 0);
-  jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,delayTime:3000});
-  $(".botter .retu_img").click(function () {
-    var speed=200;
-    $('body, html').animate({ scrollTop: 0 }, speed);
-    return false;
-  });
-</script>
 </body>
 </html>

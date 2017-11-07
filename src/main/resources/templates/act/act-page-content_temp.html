@@ -345,7 +345,6 @@
         </div>
       </div>
     </div>
-
   </div>
   <div class="botter">
     <div class="retu_img">
@@ -353,3 +352,12 @@
     </div>
   </div>
 </div>
+<script>
+  $('.hot_box .goods:nth-child(4n)').css('margin-right', 0);
+  jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,delayTime:3000});
+  $(".botter .retu_img").click(function () {
+    var speed=200;
+    $('body, html').animate({ scrollTop: 0 }, speed);
+    return false;
+  });
+</script>
