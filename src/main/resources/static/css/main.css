@@ -1,0 +1,671 @@
+.banner{
+    height: 808px;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.main_box{
+    float: left;
+    width: 100%;
+}
+.main_wrap{
+    width: 1048px;
+    margin: 0 auto;
+    font-family: 'Adobe 黑体 Std';
+    position: relative;
+}
+.content{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+.tit_pic{
+    width: 492px;
+    margin: 25px auto;;
+}
+.tit_pic img{
+    width: 100%;
+    height: 100%;
+}
+.banimg {
+    width: 100%;
+    overflow: hidden;
+    background: url(http://act.vacomall.com/act/20171009/continue/img/buy.png) no-repeat;
+    height: 382px;
+    background-size: 100%;
+}
+.banimg li {
+    width:100%;
+    height: 367px;
+    overflow: hidden;
+}
+.banimg li>a {
+    float: left;
+    width: 30%;
+    display: block;
+    height:auto;
+    overflow: hidden;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 378px;
+    margin-top: 30px;
+}
+.banimg .box{
+    width: 100%;
+}
+.box .tit {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Adobe 黑体 Std';
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.box .img_box {
+    position: relative;
+    width: 236px;
+    margin: 37px auto;
+    height: 161px;
+}
+.img_box img {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+.box .point {
+    float: left;
+    margin-top: 5px;
+}
+.box .price {
+    position: relative;
+    width: 55%;
+    float: right;
+    margin-right: 57px;
+    margin-top: 5px;
+}
+.box .now {
+    float: left;
+    font-size: 34px;
+}
+.box .once {
+    float: right;
+    line-height: 35px;
+    text-decoration: line-through;
+    font-size: 18px;
+}
+.goods{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+.good_pic{
+    width: 492px;
+    margin: 25px auto;;
+}
+.good_pic img{
+    width: 100%;
+    height: 100%;
+}
+.hot_box {
+    float: left;
+    width: 100%;
+}
+.hot_box .goods {
+    float: left;
+    width: 254px;
+    height: 302px;
+    margin-right: 10.67px;
+    position: relative;
+    margin-bottom: 17px;
+}
+.kill {
+    background-image: url(http://act.vacomall.com/act/20171009/continue/img/kill.png);
+    width: 58px;
+    height: 39px;
+    line-height: 30px;
+    margin-left: 3px;
+    font-size: 12px;
+    text-align: center;
+}
+.product {
+    float: left;
+    width: 100%;
+    height: 142px;
+    margin-top: 11px;
+}
+.product .pro_box {
+    width: 209px;
+    height: 142px;
+    margin: 0 auto;
+}
+.pro_box img {
+    width: 100%;
+    height: 100%;
+}
+.detail {
+    float: left;
+    margin-top: 7px;
+    padding: 5px;
+    font-size: 13px;
+}
+.detail .det_top {
+    width: 247px;
+    height: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.detail .det_bottom {
+    width: 247px;
+    height: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.yello {
+    float: left;
+    width: 100%;
+    height: 57px;
+    position: absolute;
+    bottom: 0px;
+}
+.yello .pri_tit {
+    float: left;
+    margin-top: 28px;
+    margin-left: 4px;
+    font-size: 12px;
+}
+.yello .pri_point {
+    float: left;
+    font-size: 11px;
+    margin-top: 18px;
+}
+.yello .pri_num {
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.yello .order {
+    float: right;
+    display: block;
+    width: 82px;
+    height: 28px;
+    border-radius: 13px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 18px;
+    margin-right: 4px;
+}
+.botter {
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.retu_img {
+    width: 143px;
+    height: 143px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.retu_img img {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 1024px){
+    .head{
+        display: none;
+    }
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 14px;
+        position: relative;
+    }
+    .banner{
+        height: 430px;
+        background-size: 100% 100%;
+    }
+    .main_wrap{
+        width: 100%;
+    }
+    .banimg{
+        width: 92%;
+        margin-left: 4%;
+        background-size: 100% 100%;
+        height: 337px;
+    }
+    .banimg li{
+        height: 100%;
+        margin-top: 0px;
+    }
+    .banimg li>a {
+        margin-left: 322px;
+        margin-top: 36px;
+    }
+    .box .tit{
+        font-size: 26px;
+    }
+    .box .img_box {
+        width: 236px;
+        margin: 20px auto;
+        height: 161px;
+    }
+    .box .price {
+        margin-right: 34px;
+        margin-top: 5px;
+        width: 67%;
+    }
+    .box .now {
+        font-size: 32px;
+    }
+    .box .once {
+        font-size: 24px;
+    }
+    .hot_box .goods_min {
+        width: 44%;
+        height: 538px;
+        margin-bottom: 17px;
+        margin-left: 4%;
+        margin-right: 0px;
+    }
+    .product {
+        height: auto;
+        margin-top: 42px;
+    }
+    .product .pro_box {
+        width: 335px;
+        height: 228px;
+    }
+    .detail {
+        width: 96%;
+        font-size: 20px;
+        margin-top: 39px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .detail .det_top {
+        width: 100%;
+        height: auto;
+    }
+    .detail .det_bottom {
+        width: 100%;
+        height: auto;
+    }
+    .yello {
+        height: 97px;
+    }
+    .yello .pri_tit {
+        margin-top: 51px;
+        margin-left: 2%;
+        font-size: 20px;
+    }
+    .yello .pri_point {
+        margin-top: 42px;
+    }
+    .yello .pri_num {
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    .yello .order {
+        width: 140px;
+        height: 51px;
+        border-radius: 24px;
+        font-size: 24px;
+        line-height: 51px;
+        margin-top: 25px;
+        margin-right: 2%;
+    }
+    .kill {
+        width: 101px;
+        height: 68px;
+        line-height: 53px;
+        font-size: 19px;
+        background-size: 100% 100%;
+    }
+    .footer{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .banner {
+        height: 313.26px;
+    }
+    .tit_pic {
+        margin: 22px auto;
+    }
+    .banimg {
+        height: 260px;
+    }
+    .banimg li>a {
+        margin-left: 241px;
+        margin-top: 36px;
+        width: 31%;
+    }
+    .box .tit{
+        font-size: 19px;
+    }
+    .box .img_box {
+        width: 176px;
+        margin: 15px auto;
+        height: 120px;
+    }
+    .box .price {
+        width: 73%;
+        margin-top: 0px;
+    }
+    .box .now {
+        font-size: 31px;
+    }
+    .box .once {
+        font-size: 17px;
+    }
+    .hot_box .goods {
+        height: 402px;
+    }
+    .kill {
+        width: 94px;
+        height: 62px;
+        line-height: 49px;
+        font-size: 18px;
+    }
+    .product {
+        margin-top: 22px;
+    }
+    .product .pro_box {
+        width: 246px;
+        height: 167px;
+    }
+    .detail {
+        font-size: 17px;
+        margin-top: 12px;
+    }
+    .yello {
+        height: 81px;
+    }
+    .yello .pri_tit {
+        margin-top: 45px;
+        font-size: 18px;
+    }
+    .yello .pri_point {
+        margin-top: 36px;
+    }
+    .yello .pri_num {
+        font-size: 37px;
+        margin-top: 28px;
+    }
+    .yello .order {
+        width: 112px;
+        height: 39px;
+        border-radius: 24px;
+        font-size: 19px;
+        line-height: 39px;
+        margin-top: 28px;
+        margin-right: 2%;
+    }
+
+
+}
+@media screen and (max-width: 414px){
+    .banner {
+        height: 168.87px;
+    }
+    .tit_pic {
+        width: 220px;
+        margin: 10px auto;
+    }
+    .banimg {
+        width: 94%;
+        height: 128px;
+        margin-left: 3%;
+    }
+    .banimg li>a {
+        margin-left: 132px;
+        margin-top: 2px;
+        width: 31%;
+    }
+    .box .tit {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .box .img_box {
+        width: 95px;
+        margin: 5px auto;
+        height: 65px;
+    }
+    .box .price {
+        width: 84%;
+        margin-right: 11px;
+        margin-top: 0px;
+    }
+    .box .now {
+        font-size: 19px;
+    }
+    .box .point{
+        margin-top: 0px;
+    }
+    .box .once {
+        font-size: 13px;
+        line-height:25px
+    }
+    .good_pic{
+        width: 220px;
+        margin: 10px auto;
+    }
+    .hot_box .goods {
+        width: 45.5%;
+        height: 225px;
+        margin-left: 3%;
+    }
+    .kill {
+        width: 52px;
+        height: 32px;
+        line-height: 21px;
+        font-size: 12px;
+    }
+    .product {
+        margin-top: 0px;
+    }
+    .product .pro_box {
+        width: 155px;
+        height: 105px;
+    }
+    .detail {
+        font-size: 12px;
+        margin-top: 1px;
+    }
+    .yello {
+        height: 45px;
+    }
+    .yello .pri_tit {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .yello .pri_point {
+        margin-top: 18px;
+    }
+    .yello .pri_num {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .yello .order {
+        width: 60px;
+        height: 22px;
+        border-radius: 10px;
+        font-size: 12px;
+        line-height: 22px;
+        margin-top: 15px;
+        margin-right: 2%;
+    }
+    .botter {
+        margin-top: 0px;
+    }
+    .retu_img {
+        width: 65px;
+        height: 65px;
+        margin-top: 10px;
+    }
+    @media screen and (max-width: 375px) {
+        .banner {
+            height: 152.96px;
+        }
+        .banimg li>a {
+            margin-left: 124px;
+            margin-top: 5px;
+            width: 29%;
+        }
+        .box .now {
+            font-size: 16px;
+        }
+        .box .once {
+            font-size: 12px;
+            line-height: 20px;
+        }
+        .tit_pic{
+            width: 200px;
+        }
+        .hot_box .goods {
+            height: 202px;
+        }
+        .kill {
+            width: 51px;
+            height: 30px;
+            line-height: 21px;
+            font-size: 12px;
+        }
+        .product .pro_box {
+            width: 140px;
+            height: 94px;
+        }
+        .good_pic{
+            width: 200px;
+        }
+        .yello {
+            height: 35px;
+        }
+        .yello .pri_tit {
+            margin-top: 13px;
+            font-size: 12px;
+        }
+        .yello .pri_point {
+            margin-top: 13px;
+        }
+        .yello .pri_num {
+            font-size: 16px;
+            margin-top: 12px;
+        }
+        .yello .order {
+            width: 57px;
+            height: 21px;
+            border-radius: 10px;
+            font-size: 12px;
+            line-height: 21px;
+            margin-top: 9px;
+            margin-right: 1%;
+        }
+        .botter {
+            margin-bottom: 20px;
+        }
+        .retu_img {
+            width: 65px;
+            height: 65px;
+            margin-top:  5px;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .banner {
+            height: 130.53px;
+        }
+        .tit_pic{
+            width: 176px;
+        }
+        .banimg {
+            height: 109px;
+        }
+        .banimg li>a {
+            margin-left: 102px;
+            width: 30%;
+        }
+        .good_pic{
+            width: 176px;
+        }
+        .box .img_box {
+            width: 70px;
+            height: 46px;
+            margin-top: 6px;
+        }
+        .box .price {
+            width: 100%;
+            margin-right: 0px;
+        }
+        .box .now {
+            font-size: 15px;
+        }
+        .box .once {
+            font-size: 12px;
+            line-height: 18px;
+        }
+        .banimg li>a {
+            margin-left: 102px;
+            width: 30%;
+        }
+        .box .img_box {
+            width: 70px;
+            height: 46px;
+            margin-top: 6px;
+        }
+        .box .price {
+            width: 100%;
+            margin-right: 0px;
+        }
+        .box .now {
+            font-size: 15px;
+        }
+        .box .once {
+            font-size: 12px;
+            line-height: 18px;
+        }
+        hot_box .goods {
+            margin-bottom: 9px;
+        }
+        .kill {
+            width: 51px;
+            height: 24px;
+            line-height: 17px;
+            font-size: 12px;
+        }
+        detail {
+            font-size: 12px;
+            margin-top: -2px;
+        }
+        .yello {
+            height: 44px;
+        }
+        .yello .pri_tit {
+            display: none;
+            margin-top: 5px;
+            font-size: 12px;
+        }
+        .yello .pri_point {
+            margin-top: 16px;
+            margin-left: 2px;
+        }
+        .yello .pri_num {
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        .yello .order {
+            width: 62px;
+            height: 21px;
+            border-radius: 10px;
+            font-size: 12px;
+            line-height: 21px;
+            margin-top: 14px;
+            margin-right: 2%;
+        }
+    }
+}
